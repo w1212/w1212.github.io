@@ -1,0 +1,45 @@
+<html>
+<head>
+<title>
+个人小档案 </title>
+</head>
+<body  bgcolor="lightblue">
+<tr>
+<td><img src="true.jpg" width="1880" height="256"/></td>
+</tr>
+<form  method="post" action="确认网页.asp">
+<fieldest>
+<legend>个人资料</legend><br><br>
+姓名：<input type="text" name ="姓名" size="10"><br><br>
+密码：<input type="password" name="password" size="10"><br><br>
+性别；<input type="RADIO" name="radid" value="male">男
+      <input type="RADIO" name="radid" value="female">女<br>
+最高学历：
+      <select name="Userschool" size ="4">
+	<option value="高中以下">高中以下
+	<option value="大专院校">大专院校
+	<option value="硕士">硕士</option>
+	<option value="博士">博士</option>
+	<option value="其他">其他</option>
+</select>
+<br><br>
+</fieldset>
+<br>
+<fieldset>
+<legend>其他资料</legend>
+ 	你喜欢下列哪些活动（可复选）？
+	<input type="checkbox" name="checkbox" value="阅读" > 阅读
+	<input type="checkbox" name="checkbox" value="打球" >打球
+        <input type="checkbox" name="checkbox" value="逛街" > 阅读
+	<input type="checkbox" name="checkbox" value="听音乐" > 听音乐
+	<input type="checkbox" name="checkbox" value="水上运动" > 水上运动
+	<input type="checkbox" name="checkbox" value="旅行" > 旅行<br>
+        你还有哪些个人特质需要补充的呢？<br>
+<textarea name="userthought" cols="45" rows-"4"></textarea><br>
+</fieldset>
+<br><br>
+<input type ="submit" value="提交">
+<input type="reset" value="重置">
+</form>
+</body>
+</html>
