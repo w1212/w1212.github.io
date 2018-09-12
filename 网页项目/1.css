@@ -1,0 +1,29 @@
+#header {
+    background-color:black;
+    color:white;
+    text-align:center;
+    padding:5px;
+font-size:50px;
+}
+#nav {
+    line-height:140px;
+    background-color:#eeeeee;
+    height:1200px;
+    width:300px;
+    float:left;
+    padding:20px;
+    font-size:40px;
+    color:#0C6;
+}
+#section {
+    width:1000px;
+    float:left;
+    padding:10px; 
+}
+#footer {
+    background-color:black;
+    color:white;
+    clear:both;
+    text-align:center;
+    padding:5px; 
+}

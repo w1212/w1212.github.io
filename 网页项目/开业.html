@@ -1,0 +1,49 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>时间</title>
+</head>
+<font size="+6"><a href="咖啡首页.html">咖啡首页</a></font><br>
+<br><br>
+<img src="img/v.jpg" height="350" width="420"/ >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img src="img/g.jpg" height="350" width="420"/ >
+<br>
+<body bgcolor=gray align="center">
+<font size="60" color="#00FF33" face="Arial, Helvetica, sans-serif">
+<br> 
+春之物语咖啡店距离开业还有：<br> 
+<span id="span_dt_dt" style='border:1px solid black;background-color:#CC9999' ></span> 
+
+
+
+
+<SCRIPT language=javascript> 
+
+<!-- 
+//document.write(""); 
+ 
+function show_student163_time(){ 
+ window.setTimeout("show_student163_time()", 1000); 
+ BirthDay=new Date("10-01-2017");//改成自己的时间
+ today=new Date(); 
+ timeold=(BirthDay.getTime()-today.getTime()); 
+ sectimeold=timeold/1000 
+ secondsold=Math.floor(sectimeold); 
+ msPerDay=24*60*60*1000 
+ e_daysold=timeold/msPerDay 
+ daysold=Math.floor(e_daysold); 
+ e_hrsold=(e_daysold-daysold)*24; 
+ hrsold=Math.floor(e_hrsold); 
+ e_minsold=(e_hrsold-hrsold)*60; 
+ minsold=Math.floor((e_hrsold-hrsold)*60); 
+ seconds=Math.floor((e_minsold-minsold)*60); 
+ span_dt_dt.innerHTML=daysold+"天"+hrsold+"时"+minsold+"分"+seconds+"秒" ; 
+  
+} 
+show_student163_time(); 
+//--> 
+</SCRIPT>
+</font >
+</body>
+</html>
